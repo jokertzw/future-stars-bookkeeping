@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/QUST-Coder/future-stars-bookkeeping.svg?branch=master)](https://travis-ci.com/QUST-Coder/future-stars-bookkeeping)
 
+[点击查看生成的账目](https://qust-future-stars.surge.sh/report.html)
+
 # 目标
 - 结构化收支记录
 - 使用 CI 自动化得到余额和资金收支报告
