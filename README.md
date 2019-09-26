@@ -1,5 +1,7 @@
 # “科协未来星计划” 账目
 
+[![Build Status](https://travis-ci.com/QUST-Coder/future-stars-bookkeeping.svg?branch=master)](https://travis-ci.com/QUST-Coder/future-stars-bookkeeping)
+
 # 目标
 - 结构化收支记录
 - 使用 CI 自动化得到余额和资金收支报告
