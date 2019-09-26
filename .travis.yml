@@ -1,0 +1,18 @@
+language: python
+
+install:
+  - pip install -r requirements.txt
+
+env:
+  - SURGE_LOGIN=e.d.boy@aliyun.com SURGE_TOKEN=8f1419039633a071a97927c40f3b9599
+
+script:
+  - python report.py
+  - mkdir deploy
+  - mv report.html deploy/report.html
+
+deploy:
+  provider: surge
+  project: ./deploy/
+  domain: qust-future-stars.surge.sh
+  skip_cleanup: true
